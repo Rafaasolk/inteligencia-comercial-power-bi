@@ -2,7 +2,7 @@
 
 **Projeto de Business Intelligence para análise de faturamento, metas, performance comercial, rentabilidade e projeção de vendas.**
 
-![Visão geral do dashboard](imagens/dashboard-comercial.png)
+
 
 > **Sobre a publicação:** estudo de caso documentado a partir de um modelo Power BI existente. Identificadores individuais presentes na visualização de equipe foram ocultados. O arquivo PBIX, bases de dados, conexões e informações internas não fazem parte deste repositório.
 
@@ -37,8 +37,6 @@ A solução reúne quatro eixos:
 | Recomendações | Medidas de itens recomendados e similaridade entre clientes |
 
 ## Forecast comercial
-
-![Forecast de vendas](imagens/forecast.png)
 
 O modelo contém uma medida `$ Forecast` que combina faturamento realizado com a meta atribuída a datas futuras, de acordo com o indicador `dCalendario[Passado]`. Há também medidas MTD e YTD e cálculos para a meta diária necessária.
 
